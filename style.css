@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    color: #222;
+}
+.navbar{
+    height: 80px;
+    background-color: blueviolet;
+    box-shadow: 0 0 5px #000 !important;
+}
+.nav-link{
+    color: white !important;
+}
+@media only screen and (min-width:0) and (max-width:576px){
+    .navbar-collapse{
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center !important;
+
+    }
+}
+main{
+    height: calc(100vh - 80px);
+    background-color: #222;
+    background-image: url(./img/snack-2635035_1280.jpg);
+    background-size: cover;
+
+}
+.sele{
+    color: #fff;
+    width: 70%;
+    border: 4px solid blueviolet;
+    padding: 30px;
+    float: right;
+    margin: 40px;
+}
+.sele h1{
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+.sele p{
+    margin-bottom: 30px;
+}
+.sele a{
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid blueviolet;
+}
+.sele a:hover{
+    background-color: #222;
+}
+.conta{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    border: 4px solid #222;
+
+}
+.mapa{
+    text-align: center;
+}
+.nos{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    border: 4px solid #222;
+}
+
+.nav1{
+    text-align: center;
+}
+.selec{
+    width: 50%;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+
+}
+footer p{
+    margin-bottom: 50px;
+}
+footer i{
+    color: blueviolet;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
